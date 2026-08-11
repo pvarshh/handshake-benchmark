@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":3,"result":{"tools":[{"description":"Echo a message back verbatim.","inputSchema":{"properties":{"text":{"title":"Text","type":"string"}},"required":["text"],"type":"object","title":"echoArguments"},"name":"echo","outputSchema":{"properties":{"result":{"title":"Result","type":"string"}},"required":["result"],"type":"object","title":"echoOutput"}}]}}

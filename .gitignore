@@ -1,0 +1,51 @@
+# --- Python -----------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- LaTeX build artifacts --------------------------------------------------
+# Both papers build with `tectonic paper/<name>.tex`. The PDFs are committed
+# so the paper can be read without a TeX install; everything else here is
+# regenerated on every build.
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.xdv
+
+# --- Generated bundles ------------------------------------------------------
+# Rebuilt from paper/ sources; see README. Not source, so not tracked.
+arxiv-submission.tar.gz
+
+# --- Run logs ---------------------------------------------------------------
+# The per-run JSONL under results/raw IS the artifact and is tracked. This is
+# only the human-readable console transcript of the most recent run.
+results/raw/run_log.txt
+
+# --- Scratch -----------------------------------------------------------------
+# Screenshots dropped into the repo while reviewing proofs.
+Screenshot*.png
+screenshot*.png
+
+# --- OS and editor cruft ----------------------------------------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

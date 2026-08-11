@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its data, please cite the paper."
+title: "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols"
+authors:
+  - family-names: Varshney
+    given-names: Pranav
+    affiliation: University of Michigan
+    email: pvarsh@umich.edu
+abstract: >-
+  A phase-decomposed benchmark of the connection-establishment handshake in
+  three AI agent communication protocols (MCP, A2A, ACP), measuring round
+  trips, per-phase latency, wire bytes, capability-metadata context cost,
+  and failure behavior with the protocols' official SDKs.
+keywords:
+  - agent communication protocols
+  - Model Context Protocol
+  - A2A
+  - handshake overhead
+  - connection establishment
+  - benchmarking
+license: MIT
+repository-code: "https://github.com/pvarshh/handshake-benchmark"

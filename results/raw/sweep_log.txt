@@ -1,0 +1,36 @@
+mcp-legacy rtt=0ms done
+mcp-legacy rtt=25ms done
+mcp-legacy rtt=50ms done
+mcp-legacy rtt=100ms done
+mcp-modern rtt=0ms done
+mcp-modern rtt=25ms done
+mcp-modern rtt=50ms done
+mcp-modern rtt=100ms done
+a2a rtt=0ms done
+a2a rtt=25ms done
+a2a rtt=50ms done
+a2a rtt=100ms done
+acp rtt=0ms done
+acp rtt=25ms done
+acp rtt=50ms done
+acp rtt=100ms done
+mcp-legacy rtt=0: n=20 med=7.6 p95=8.6
+mcp-legacy rtt=25: n=20 med=125.7 p95=130.8
+mcp-legacy rtt=50: n=20 med=229.5 p95=233.3
+mcp-legacy rtt=100: n=20 med=428.6 p95=433.2
+mcp-legacy slope: 4.18 ms latency per ms RTT
+mcp-modern rtt=0: n=20 med=5.6 p95=8.1
+mcp-modern rtt=25: n=20 med=70.5 p95=72.8
+mcp-modern rtt=50: n=20 med=119.6 p95=122.7
+mcp-modern rtt=100: n=20 med=220.2 p95=223.1
+mcp-modern slope: 2.11 ms latency per ms RTT
+a2a rtt=0: n=20 med=3.6 p95=7.2
+a2a rtt=25: n=20 med=33.6 p95=38.2
+a2a rtt=50: n=20 med=62.4 p95=67.3
+a2a rtt=100: n=20 med=112.3 p95=115.3
+a2a slope: 1.08 ms latency per ms RTT
+acp rtt=0: n=20 med=3.1 p95=4.3
+acp rtt=25: n=20 med=36.2 p95=39.9
+acp rtt=50: n=20 med=61.7 p95=67.3
+acp rtt=100: n=20 med=112.4 p95=117.3
+acp slope: 1.08 ms latency per ms RTT

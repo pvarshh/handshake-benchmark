@@ -1,0 +1,90 @@
+% wsstyle.sty -- self-contained NeurIPS-workshop-alike layout.
+%
+% WHY THIS EXISTS: the official neurips_2026.sty is not bundled with TeX Live and
+% is published per-workshop. This file reproduces the NeurIPS geometry (5.5in x 9in
+% text block, 10pt, single column) closely enough to write and page-count against.
+%
+% BEFORE SUBMITTING: download the workshop's official style file, replace
+%   \usepackage{wsstyle}  ->  \usepackage[final]{neurips_2026}
+% and delete this file.
+%
+% ONE THING DOES NOT DEGRADE GRACEFULLY, and this comment used to claim it did.
+% \keywords is defined at the bottom of THIS FILE and nowhere else, and
+% submission.tex uses it right after \maketitle. Delete this file without
+% providing \keywords and the very next build stops with
+%
+%   ! Undefined control sequence.  ... \keywords
+%
+% (No line number here on purpose: submission.tex is edited constantly and a
+% stale "l.131" pointing at the wrong line is the same drift this comment
+% exists to warn about. Search for \keywords.)
+%
+% which is a five-minute fix at any time except the one time this instruction is
+% ever followed: the submission deadline. So before deleting this file, put
+%
+%   \providecommand{\keywords}[1]{\vspace{-0.3em}{\small\textbf{Keywords:} #1}\vspace{0.6em}}
+%
+% in submission.tex's preamble, after the \usepackage line. \providecommand and
+% not \newcommand, so it stays inert if the venue's style defines \keywords
+% itself. Nothing else in the body is custom.
+%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{wsstyle}[2026/07/30 NeurIPS-alike workshop layout]
+
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage{titlesec}
+\RequirePackage{caption}
+
+% --- Page geometry: matches the NeurIPS text block ------------------------
+\geometry{
+  paperwidth=8.5in,
+  paperheight=11in,
+  textwidth=5.5in,
+  textheight=9in,
+  top=1in,
+  left=1.5in,
+  headheight=12pt,
+  headsep=20pt,
+  footskip=25pt,
+}
+
+% --- Typography ----------------------------------------------------------
+\renewcommand{\baselinestretch}{1.0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip}
+
+% Section headings: bold, sans-free, NeurIPS-like sizing.
+\titleformat{\section}{\large\bfseries}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titleformat{\paragraph}[runin]{\normalsize\bfseries}{}{0em}{}[.]
+\titlespacing*{\section}{0pt}{1.4ex plus .8ex minus .2ex}{0.9ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{1.1ex plus .6ex minus .2ex}{0.7ex plus .2ex}
+
+% Captions: small, bold label, as in the NeurIPS style.
+\captionsetup{font=small,labelfont=bf,skip=6pt}
+
+% --- Title block ---------------------------------------------------------
+\renewcommand{\maketitle}{%
+  \begin{center}
+    {\LARGE\bfseries \@title \par}%
+    \vskip 1.2em
+    {\normalsize \@author \par}%
+    \vskip 0.8em
+  \end{center}
+  \vskip 0.5em
+}
+
+% Abstract: indented block, per NeurIPS.
+\renewenvironment{abstract}{%
+  \centerline{\large\bfseries Abstract}%
+  \vspace{0.4em}%
+  \begin{quote}\small
+}{%
+  \end{quote}\vspace{0.6em}
+}
+
+\newcommand{\keywords}[1]{\vspace{-0.3em}{\small\textbf{Keywords:} #1}\vspace{0.6em}}
+
+\pagestyle{plain}
+\endinput

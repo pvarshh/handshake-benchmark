@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"result":{"capabilities":{"experimental":{},"prompts":{"listChanged":false},"resources":{"listChanged":false,"subscribe":false},"tools":{"listChanged":false}},"instructions":"A minimal agent exposing a single echo capability for benchmarking.","protocolVersion":"2025-11-25","serverInfo":{"name":"echo-agent","version":"1.0.0"}}}

@@ -1,0 +1,14 @@
+mcp==2.0.0
+a2a-sdk==1.1.2
+acp-sdk==1.0.3
+httpx==0.28.1
+uvicorn==0.34.3
+fastapi==0.115.14
+starlette==0.46.2
+matplotlib==3.11.1
+numpy==2.5.2
+tiktoken==0.13.0
+pydantic==2.13.4
+
+# optional: exact token counts via the free count_tokens endpoint
+anthropic==0.121.0

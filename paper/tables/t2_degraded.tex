@@ -1,0 +1,19 @@
+\begin{tabular}{llllrl}
+\toprule
+Scenario & Protocol & Outcome & med.\ time (ms) & Retr. & Error surfaced \\
+\midrule
+S4a slow (2\,s/resp.) & MCP (legacy) & ready & 6026 & 0 & none \\
+ & MCP (modern) & ready & 4019 & 0 & none \\
+ & A2A & ready & 2011 & 0 & none \\
+ & ACP & ready & 2011 & 0 & none \\
+\addlinespace
+S4b truncated metadata & MCP (legacy) & error & 3.5 & 0 & \texttt{MCPError} \\
+ & MCP (modern) & error & 4.4 & 0 & \texttt{MCPError} \\
+ & A2A & error & 3.0 & 0 & \texttt{AgentCardResolutionError} \\
+ & ACP & error & 2.9 & 0 & \texttt{JSONDecodeError} \\
+\addlinespace
+S4c version mismatch & MCP (legacy) & error & 3.7 & 0 & \texttt{RuntimeError} \\
+ & MCP (modern) & error & 4.2 & 0 & \texttt{RuntimeError} \\
+ & A2A & ready & 3.0 & 0 & none (version deferred) \\
+\bottomrule
+\end{tabular}

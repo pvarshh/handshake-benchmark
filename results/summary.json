@@ -1,0 +1,1224 @@
+{
+  "cells": {
+    "s1.a2a.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.8081455,
+      "median_ci_lo": 2.776396,
+      "median_ci_hi": 2.848375,
+      "p95_ms": 3.044292,
+      "min_ms": 2.62125,
+      "max_ms": 3.180208,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 569.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 569.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 0.658146,
+          "round_trips": 1
+        }
+      }
+    },
+    "s1.a2a.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 60.9533545,
+      "median_ci_lo": 60.409125,
+      "median_ci_hi": 61.134583,
+      "p95_ms": 61.943667,
+      "min_ms": 56.390416,
+      "max_ms": 62.70525,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 569.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 569.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 54.366083,
+          "round_trips": 1
+        }
+      }
+    },
+    "s1.acp.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.8345415,
+      "median_ci_lo": 2.8029374999999996,
+      "median_ci_hi": 2.890125,
+      "p95_ms": 3.210875,
+      "min_ms": 2.6375,
+      "max_ms": 3.838667,
+      "wire_bytes_up": 149.0,
+      "wire_bytes_down": 633.0,
+      "app_bytes_up": 149.0,
+      "app_bytes_down": 633.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 0.6965415,
+          "round_trips": 1
+        }
+      }
+    },
+    "s1.acp.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 62.131083000000004,
+      "median_ci_lo": 61.861833,
+      "median_ci_hi": 62.191208,
+      "p95_ms": 63.127292,
+      "min_ms": 57.171583,
+      "max_ms": 63.709917,
+      "wire_bytes_up": 149.0,
+      "wire_bytes_down": 633.0,
+      "app_bytes_up": 149.0,
+      "app_bytes_down": 633.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 54.8881465,
+          "round_trips": 1
+        }
+      }
+    },
+    "s1.mcp-legacy.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 6.078708000000001,
+      "median_ci_lo": 5.997083,
+      "median_ci_hi": 6.1825,
+      "p95_ms": 7.971375,
+      "min_ms": 5.640209,
+      "max_ms": 16.10825,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 1.3365005,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 0.946979,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 0.7622500000000001,
+          "round_trips": 1
+        }
+      }
+    },
+    "s1.mcp-legacy.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 229.56043749999998,
+      "median_ci_lo": 228.0066665,
+      "median_ci_hi": 231.1731875,
+      "p95_ms": 235.786916,
+      "min_ms": 218.836417,
+      "max_ms": 238.956958,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 82.302479,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 81.3048335,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 55.154125,
+          "round_trips": 1
+        }
+      }
+    },
+    "s1.mcp-modern.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 4.436166,
+      "median_ci_lo": 4.205333,
+      "median_ci_hi": 4.492167,
+      "p95_ms": 5.210125,
+      "min_ms": 3.964791,
+      "max_ms": 5.594959,
+      "wire_bytes_up": 1070.0,
+      "wire_bytes_down": 1205.0,
+      "app_bytes_up": 1070.0,
+      "app_bytes_down": 1205.0,
+      "phases": {
+        "capability": {
+          "median_ms": 1.6078540000000001,
+          "round_trips": 2
+        }
+      }
+    },
+    "s1.mcp-modern.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 121.971292,
+      "median_ci_lo": 120.993792,
+      "median_ci_hi": 122.6035205,
+      "p95_ms": 124.760375,
+      "min_ms": 113.225792,
+      "max_ms": 127.712333,
+      "wire_bytes_up": 1070.0,
+      "wire_bytes_down": 1205.0,
+      "app_bytes_up": 1070.0,
+      "app_bytes_down": 1205.0,
+      "phases": {
+        "capability": {
+          "median_ms": 112.1040835,
+          "round_trips": 2
+        }
+      }
+    },
+    "s2.a2a-warm.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 0,
+      "round_trips_median": 0.0,
+      "connections": 0.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.0130835,
+      "median_ci_lo": 1.992521,
+      "median_ci_hi": 2.058292,
+      "p95_ms": 2.696666,
+      "min_ms": 1.932791,
+      "max_ms": 4.297291,
+      "wire_bytes_up": 0.0,
+      "wire_bytes_down": 0.0,
+      "app_bytes_up": 0.0,
+      "app_bytes_down": 0.0,
+      "phases": {}
+    },
+    "s2.a2a-warm.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 0,
+      "round_trips_median": 0.0,
+      "connections": 0.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.0270205,
+      "median_ci_lo": 2.001062,
+      "median_ci_hi": 2.053917,
+      "p95_ms": 2.654542,
+      "min_ms": 1.931958,
+      "max_ms": 2.972,
+      "wire_bytes_up": 0.0,
+      "wire_bytes_down": 0.0,
+      "app_bytes_up": 0.0,
+      "app_bytes_down": 0.0,
+      "phases": {}
+    },
+    "s2.acp-warm.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 0,
+      "round_trips_median": 0.0,
+      "connections": 0.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.076021,
+      "median_ci_lo": 2.0509165,
+      "median_ci_hi": 2.0956255,
+      "p95_ms": 2.500917,
+      "min_ms": 2.004709,
+      "max_ms": 2.84225,
+      "wire_bytes_up": 0.0,
+      "wire_bytes_down": 0.0,
+      "app_bytes_up": 0.0,
+      "app_bytes_down": 0.0,
+      "phases": {}
+    },
+    "s2.acp-warm.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 0,
+      "round_trips_median": 0.0,
+      "connections": 0.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 6.574187500000001,
+      "median_ci_lo": 6.065333,
+      "median_ci_hi": 6.803625,
+      "p95_ms": 7.36875,
+      "min_ms": 3.58175,
+      "max_ms": 7.528291,
+      "wire_bytes_up": 0.0,
+      "wire_bytes_down": 0.0,
+      "app_bytes_up": 0.0,
+      "app_bytes_down": 0.0,
+      "phases": {}
+    },
+    "s2.mcp-legacy-warm.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 6.1155835,
+      "median_ci_lo": 6.0733125,
+      "median_ci_hi": 6.151916,
+      "p95_ms": 6.486959,
+      "min_ms": 5.836834,
+      "max_ms": 6.642875,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 1.3233125000000001,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 1.171438,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 0.6690834999999999,
+          "round_trips": 1
+        }
+      }
+    },
+    "s2.mcp-legacy-warm.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 230.4663545,
+      "median_ci_lo": 228.47525,
+      "median_ci_hi": 231.689729,
+      "p95_ms": 234.016416,
+      "min_ms": 217.603209,
+      "max_ms": 237.15075,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 82.1390835,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 81.262125,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 55.2398125,
+          "round_trips": 1
+        }
+      }
+    },
+    "s2.mcp-modern-warm.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 3.6309785000000003,
+      "median_ci_lo": 3.485125,
+      "median_ci_hi": 3.724584,
+      "p95_ms": 4.215958,
+      "min_ms": 3.154375,
+      "max_ms": 6.343084,
+      "wire_bytes_up": 540.0,
+      "wire_bytes_down": 557.0,
+      "app_bytes_up": 540.0,
+      "app_bytes_down": 557.0,
+      "phases": {
+        "capability": {
+          "median_ms": 1.182229,
+          "round_trips": 1
+        }
+      }
+    },
+    "s2.mcp-modern-warm.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 63.532188,
+      "median_ci_lo": 63.136354,
+      "median_ci_hi": 64.196625,
+      "p95_ms": 65.406042,
+      "min_ms": 57.350333,
+      "max_ms": 66.129875,
+      "wire_bytes_up": 540.0,
+      "wire_bytes_down": 557.0,
+      "app_bytes_up": 540.0,
+      "app_bytes_down": 557.0,
+      "phases": {
+        "capability": {
+          "median_ms": 55.7126875,
+          "round_trips": 1
+        }
+      }
+    },
+    "s2.mcp-pinned-warm.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 0,
+      "round_trips_median": 0.0,
+      "connections": 0.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.1392915,
+      "median_ci_lo": 2.130396,
+      "median_ci_hi": 2.1775,
+      "p95_ms": 2.566,
+      "min_ms": 2.071125,
+      "max_ms": 2.769125,
+      "wire_bytes_up": 0.0,
+      "wire_bytes_down": 0.0,
+      "app_bytes_up": 0.0,
+      "app_bytes_down": 0.0,
+      "phases": {}
+    },
+    "s2.mcp-pinned-warm.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 0,
+      "round_trips_median": 0.0,
+      "connections": 0.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 6.641583499999999,
+      "median_ci_lo": 6.457708,
+      "median_ci_hi": 6.722417,
+      "p95_ms": 7.274917,
+      "min_ms": 4.206333,
+      "max_ms": 7.421166,
+      "wire_bytes_up": 0.0,
+      "wire_bytes_down": 0.0,
+      "app_bytes_up": 0.0,
+      "app_bytes_down": 0.0,
+      "phases": {}
+    },
+    "s3.a2a.local": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 2.864875,
+      "median_ci_lo": 2.793334,
+      "median_ci_hi": 3.061021,
+      "p95_ms": 4.277334,
+      "min_ms": 2.707458,
+      "max_ms": 7.004042,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 569.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 569.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 0.701667,
+          "round_trips": 1
+        }
+      }
+    },
+    "s3.a2a.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 62.249021,
+      "median_ci_lo": 61.8567295,
+      "median_ci_hi": 62.520292,
+      "p95_ms": 65.301833,
+      "min_ms": 57.890333,
+      "max_ms": 65.565917,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 569.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 569.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 54.838229,
+          "round_trips": 1
+        }
+      }
+    },
+    "s3.acp.local": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 2.8579375000000002,
+      "median_ci_lo": 2.817542,
+      "median_ci_hi": 2.9469374999999998,
+      "p95_ms": 4.023334,
+      "min_ms": 2.730083,
+      "max_ms": 6.285084,
+      "wire_bytes_up": 149.0,
+      "wire_bytes_down": 633.0,
+      "app_bytes_up": 149.0,
+      "app_bytes_down": 633.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 0.7258125,
+          "round_trips": 1
+        }
+      }
+    },
+    "s3.acp.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 57.659437499999996,
+      "median_ci_lo": 56.863125,
+      "median_ci_hi": 58.598396,
+      "p95_ms": 63.206875,
+      "min_ms": 55.319792,
+      "max_ms": 64.653209,
+      "wire_bytes_up": 149.0,
+      "wire_bytes_down": 633.0,
+      "app_bytes_up": 149.0,
+      "app_bytes_down": 633.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 53.753521,
+          "round_trips": 1
+        }
+      }
+    },
+    "s3.mcp-legacy.local": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 6.1671665,
+      "median_ci_lo": 6.114083,
+      "median_ci_hi": 6.213146,
+      "p95_ms": 6.874583,
+      "min_ms": 5.7845,
+      "max_ms": 7.091625,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 1.3799584999999999,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 1.178062,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 0.7039375,
+          "round_trips": 1
+        }
+      }
+    },
+    "s3.mcp-legacy.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 230.80564550000003,
+      "median_ci_lo": 229.970458,
+      "median_ci_hi": 231.813334,
+      "p95_ms": 234.886375,
+      "min_ms": 218.173375,
+      "max_ms": 235.175292,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 82.21587550000001,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 81.5566245,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 55.367437499999994,
+          "round_trips": 1
+        }
+      }
+    },
+    "s3.mcp-modern.local": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 4.395395499999999,
+      "median_ci_lo": 4.273521,
+      "median_ci_hi": 4.571708,
+      "p95_ms": 5.457709,
+      "min_ms": 3.889458,
+      "max_ms": 6.130375,
+      "wire_bytes_up": 1070.0,
+      "wire_bytes_down": 1205.0,
+      "app_bytes_up": 1070.0,
+      "app_bytes_down": 1205.0,
+      "phases": {
+        "capability": {
+          "median_ms": 1.613146,
+          "round_trips": 2
+        }
+      }
+    },
+    "s3.mcp-modern.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "rejected": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 116.8942495,
+      "median_ci_lo": 114.927896,
+      "median_ci_hi": 118.955041,
+      "p95_ms": 123.478459,
+      "min_ms": 109.667917,
+      "max_ms": 132.411416,
+      "wire_bytes_up": 1070.0,
+      "wire_bytes_down": 1205.0,
+      "app_bytes_up": 1070.0,
+      "app_bytes_down": 1205.0,
+      "phases": {
+        "capability": {
+          "median_ms": 109.152479,
+          "round_trips": 2
+        }
+      }
+    },
+    "s4a.a2a.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 2010.6693955,
+      "median_ci_lo": 2010.248208,
+      "median_ci_hi": 2011.2497705,
+      "p95_ms": 2015.743458,
+      "min_ms": 2006.003708,
+      "max_ms": 2019.696458,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 569.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 569.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 2004.121229,
+          "round_trips": 1
+        }
+      }
+    },
+    "s4a.acp.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 2010.6281255,
+      "median_ci_lo": 2009.9541045,
+      "median_ci_hi": 2011.225959,
+      "p95_ms": 2014.692625,
+      "min_ms": 2004.042417,
+      "max_ms": 2015.9465,
+      "wire_bytes_up": 149.0,
+      "wire_bytes_down": 633.0,
+      "app_bytes_up": 149.0,
+      "app_bytes_down": 633.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 2003.899083,
+          "round_trips": 1
+        }
+      }
+    },
+    "s4a.mcp-legacy.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 3,
+      "round_trips_median": 3.0,
+      "connections": 3.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 6025.9542705,
+      "median_ci_lo": 6024.921249999999,
+      "median_ci_hi": 6026.858375,
+      "p95_ms": 6034.074625,
+      "min_ms": 6021.027167,
+      "max_ms": 6042.154,
+      "wire_bytes_up": 1147.0,
+      "wire_bytes_down": 1522.0,
+      "app_bytes_up": 1147.0,
+      "app_bytes_down": 1492.0,
+      "phases": {
+        "session": {
+          "median_ms": 2006.9713545,
+          "round_trips": 1
+        },
+        "capability": {
+          "median_ms": 2005.371667,
+          "round_trips": 1
+        },
+        "readiness": {
+          "median_ms": 2003.620375,
+          "round_trips": 1
+        }
+      }
+    },
+    "s4a.mcp-modern.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "median_ms": 4019.006021,
+      "median_ci_lo": 4018.02,
+      "median_ci_hi": 4019.780604,
+      "p95_ms": 4022.807291,
+      "min_ms": 4013.714125,
+      "max_ms": 4032.917167,
+      "wire_bytes_up": 1070.0,
+      "wire_bytes_down": 1205.0,
+      "app_bytes_up": 1070.0,
+      "app_bytes_down": 1205.0,
+      "phases": {
+        "capability": {
+          "median_ms": 4009.8257704999996,
+          "round_trips": 2
+        }
+      }
+    },
+    "s4b.a2a.local": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 2.9751250000000002,
+      "ttf_p95_ms": 4.572459,
+      "error_types": {
+        "AgentCardResolutionError": 50
+      },
+      "error_example": "Failed to parse JSON for agent card from http://127.0.0.1:63559/.well-known/agent-card.json: Unterminated string starting at: line 1 column 217 (char 216)"
+    },
+    "s4b.a2a.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 60.4312295,
+      "ttf_p95_ms": 65.134042,
+      "error_types": {
+        "AgentCardResolutionError": 50
+      },
+      "error_example": "Failed to parse JSON for agent card from http://127.0.0.1:63726/.well-known/agent-card.json: Unterminated string starting at: line 1 column 217 (char 216)"
+    },
+    "s4b.acp.local": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 2.926125,
+      "ttf_p95_ms": 4.679916,
+      "error_types": {
+        "JSONDecodeError": 50
+      },
+      "error_example": "Expecting property name enclosed in double quotes: line 1 column 254 (char 253)"
+    },
+    "s4b.acp.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 62.600729,
+      "ttf_p95_ms": 67.069584,
+      "error_types": {
+        "JSONDecodeError": 50
+      },
+      "error_example": "Expecting property name enclosed in double quotes: line 1 column 254 (char 253)"
+    },
+    "s4b.mcp-legacy.local": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 3.530125,
+      "ttf_p95_ms": 4.697667,
+      "error_types": {
+        "MCPError": 50
+      },
+      "error_example": "Failed to parse JSON response: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]\n  Invalid JSON: EOF while parsing a string at line 1 column 190 [type=json_"
+    },
+    "s4b.mcp-legacy.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 64.43508349999999,
+      "ttf_p95_ms": 66.52225,
+      "error_types": {
+        "MCPError": 50
+      },
+      "error_example": "Failed to parse JSON response: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]\n  Invalid JSON: EOF while parsing a string at line 1 column 190 [type=json_"
+    },
+    "s4b.mcp-modern.local": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 4.3760835,
+      "ttf_p95_ms": 5.993125,
+      "error_types": {
+        "MCPError": 50
+      },
+      "error_example": "Failed to parse JSON response: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]\n  Invalid JSON: EOF while parsing a string at line 1 column 190 [type=json_"
+    },
+    "s4b.mcp-modern.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 121.1845625,
+      "ttf_p95_ms": 123.8595,
+      "error_types": {
+        "MCPError": 50
+      },
+      "error_example": "Failed to parse JSON response: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]\n  Invalid JSON: EOF while parsing a string at line 1 column 190 [type=json_"
+    },
+    "s4c.a2a.local": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 2.9776875,
+      "median_ci_lo": 2.927542,
+      "median_ci_hi": 3.029729,
+      "p95_ms": 3.669584,
+      "min_ms": 2.711458,
+      "max_ms": 4.341458,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 570.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 570.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 0.7400625000000001,
+          "round_trips": 1
+        }
+      }
+    },
+    "s4c.a2a.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "ready": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": true,
+      "median_ms": 59.51575,
+      "median_ci_lo": 59.034333000000004,
+      "median_ci_hi": 60.079833,
+      "p95_ms": 61.266,
+      "min_ms": 57.97225,
+      "max_ms": 62.166583,
+      "wire_bytes_up": 170.0,
+      "wire_bytes_down": 570.0,
+      "app_bytes_up": 170.0,
+      "app_bytes_down": 570.0,
+      "phases": {
+        "discovery": {
+          "median_ms": 53.946646,
+          "round_trips": 1
+        }
+      }
+    },
+    "s4c.mcp-legacy.local": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 3.6549585,
+      "ttf_p95_ms": 4.864,
+      "error_types": {
+        "RuntimeError": 50
+      },
+      "error_example": "Unsupported protocol version from the server: 2099-01-01"
+    },
+    "s4c.mcp-legacy.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 1,
+      "round_trips_median": 1.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 61.666478999999995,
+      "ttf_p95_ms": 65.939958,
+      "error_types": {
+        "RuntimeError": 50
+      },
+      "error_example": "Unsupported protocol version from the server: 2099-01-01"
+    },
+    "s4c.mcp-modern.local": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 4.172771,
+      "ttf_p95_ms": 5.364833,
+      "error_types": {
+        "RuntimeError": 50
+      },
+      "error_example": "Unsupported protocol version from the server: 2099-01-01"
+    },
+    "s4c.mcp-modern.rtt50": {
+      "n": 50,
+      "outcomes": {
+        "error": 50
+      },
+      "round_trips": 2,
+      "round_trips_median": 2.0,
+      "connections": 1.0,
+      "retries_max": 0,
+      "validated_all": null,
+      "ttf_median_ms": 119.709688,
+      "ttf_p95_ms": 122.184709,
+      "error_types": {
+        "RuntimeError": 50
+      },
+      "error_example": "Unsupported protocol version from the server: 2099-01-01"
+    }
+  },
+  "baseline": {
+    "tcp-connect": {
+      "n": 50,
+      "median_ms": 0.053188,
+      "p95_ms": 0.081
+    },
+    "tls13-handshake": {
+      "n": 50,
+      "median_ms": 1.8835205,
+      "p95_ms": 2.55075
+    }
+  },
+  "tokens": {
+    "_method": "tiktoken-o200k_base",
+    "_pricing_model": "claude-sonnet-5",
+    "mcp-legacy": {
+      "tokens": 181,
+      "bytes": 726,
+      "usd_per_handshake": 0.000543,
+      "usd_per_million_handshakes": 543.0
+    },
+    "mcp-modern": {
+      "tokens": 242,
+      "bytes": 953,
+      "usd_per_handshake": 0.000726,
+      "usd_per_million_handshakes": 726.0
+    },
+    "a2a": {
+      "tokens": 113,
+      "bytes": 443,
+      "usd_per_handshake": 0.000339,
+      "usd_per_million_handshakes": 339.0
+    },
+    "acp": {
+      "tokens": 112,
+      "bytes": 507,
+      "usd_per_handshake": 0.000336,
+      "usd_per_million_handshakes": 336.0
+    }
+  },
+  "inventory": {
+    "_method": "tiktoken-o200k_base",
+    "sizes": [
+      1,
+      10,
+      50,
+      200
+    ],
+    "protocols": {
+      "mcp": {
+        "rows": [
+          {
+            "n": 1,
+            "bytes": 376,
+            "tokens": 96
+          },
+          {
+            "n": 10,
+            "bytes": 3355,
+            "tokens": 798
+          },
+          {
+            "n": 50,
+            "bytes": 16745,
+            "tokens": 3918
+          },
+          {
+            "n": 200,
+            "bytes": 67445,
+            "tokens": 15618
+          }
+        ],
+        "tokens_per_capability": 78.0
+      },
+      "a2a": {
+        "rows": [
+          {
+            "n": 1,
+            "bytes": 445,
+            "tokens": 115
+          },
+          {
+            "n": 10,
+            "bytes": 1300,
+            "tokens": 331
+          },
+          {
+            "n": 50,
+            "bytes": 5200,
+            "tokens": 1291
+          },
+          {
+            "n": 200,
+            "bytes": 20150,
+            "tokens": 4891
+          }
+        ],
+        "tokens_per_capability": 24.0
+      },
+      "acp": {
+        "rows": [
+          {
+            "n": 1,
+            "bytes": 502,
+            "tokens": 112
+          },
+          {
+            "n": 10,
+            "bytes": 4912,
+            "tokens": 1075
+          },
+          {
+            "n": 50,
+            "bytes": 24562,
+            "tokens": 5355
+          },
+          {
+            "n": 200,
+            "bytes": 98412,
+            "tokens": 21405
+          }
+        ],
+        "tokens_per_capability": 107.0
+      }
+    }
+  }
+}
