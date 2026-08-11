@@ -32,6 +32,15 @@ arxiv-submission.tar.gz
 # only the human-readable console transcript of the most recent run.
 results/raw/run_log.txt
 
+# --- Under double-blind review ----------------------------------------------
+# The AgenticOS workshop submission is anonymised, but publishing it in a repo
+# named after the author's GitHub handle links the anonymous artifact straight
+# back to them. Kept local until notification (~2026-09-29), then restore:
+#   git rm --cached is reversible -- just delete these three lines and re-add.
+paper/workshop.tex
+paper/workshop.pdf
+paper/neurips_2026.sty
+
 # --- Scratch -----------------------------------------------------------------
 # Screenshots dropped into the repo while reviewing proofs.
 Screenshot*.png
