@@ -92,4 +92,3 @@ Measurements in the paper were taken 2026-08-10 on an Apple-silicon Mac
 ## License
 
 Code: MIT (see LICENSE). Paper text (paper/): CC-BY 4.0.
-# handshake-benchmark
